@@ -1,7 +1,7 @@
 {
   "name": "discord-selfbot",
   "version": "1.0.0",
-  "description": "Discord.js selfbot",
+  "description": "Discord.js sy selfbot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/2ksyrus/SY-SELFBOT/issues"
   },
-  "homepage": "https://github.com/JinxHvH/discord-selfbot#readme",
+  "homepage": "https://github.com/2ksyrus/SY-SELFBOT/blob/master/README.md",
   "dependencies": {
     "chalk": "^3.0.0",
     "discord.js": "^11.5.1"
