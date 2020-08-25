@@ -19,6 +19,8 @@ bot.on('ready', ()=>{
     console.log(green(`[SELF BOT] :: prefix: ${settings.prefix}`));
 });
 
+//make command here
+
 bot.on('message', async(msg)=>{
     if(msg.author.id !== settings.ID) {
         return;
