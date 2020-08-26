@@ -19,8 +19,6 @@ bot.on('ready', ()=>{
     console.log(green(`[SELF BOT] :: prefix: ${settings.prefix}`));
 });
 
-//make command here
-
 bot.on('message', async(msg)=>{
     if(msg.author.id !== settings.ID) {
         return;
@@ -32,6 +30,8 @@ bot.on('message', async(msg)=>{
         console.log(cyan(`[COMMAND RAN] :: ${msg.content}`));
     }
 
-
+//make command here
+    
+})
 
 bot.login(settings.token);
